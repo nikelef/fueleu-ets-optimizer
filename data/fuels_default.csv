@@ -1,0 +1,10 @@
+fuel_key,fuel_name,pathway,fuel_class,lcv_mj_per_g,wtt_gco2eq_per_mj,cf_co2_g_per_gfuel,cf_ch4_g_per_gfuel,cf_n2o_g_per_gfuel,slip_pct,notes
+HFO,HFO,ISO 8217 RME-RMK,Fossil,0.0405,13.5,3.114,0.00005,0.00018,0.0,Annex II row
+LFO,LFO,ISO 8217 RMA-RMD,Fossil,0.0410,13.2,3.151,0.00005,0.00018,0.0,Annex II row
+MGO,MGO/MDO,ISO 8217 DMX-DMB,Fossil,0.0427,14.4,3.206,0.00005,0.00018,0.0,Annex II row
+LNG_DF_MS,LNG Otto (DF medium speed),Fossil LNG,Fossil,0.0491,18.5,2.750,0.0,0.00011,3.1,Slip% from Annex II
+LNG_DF_SS_Otto,LNG Otto (DF slow speed),Fossil LNG,Fossil,0.0491,18.5,2.750,0.0,0.00011,1.7,Slip% from Annex II
+LNG_DF_SS_Diesel,LNG Diesel (DF slow speed),Fossil LNG,Fossil,0.0491,18.5,2.750,0.0,0.00011,0.2,Slip% from Annex II
+MEOH_NG,Methanol (natural gas),Fossil,Other,0.0199,31.3,1.375,,,"",TBM values exist in Annex II; set CH4/N2O via user if needed
+NH3_NG,Ammonia (natural gas),Fossil,Other,0.0186,121.0,0.0,,,"",CO2=0 at use; upstream huge; TTW CH4/N2O can be set if relevant
+ELEC,Electricity (OPS/Onboard),Grid,Electricity,0.0036,0.0,0.0,0.0,0.0,0.0,Set WtT via user/grid factor if used
